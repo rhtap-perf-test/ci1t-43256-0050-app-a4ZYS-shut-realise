@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ilfh
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0050-tenant/ci1t-43256-0050-app/devfile-sample-ilfh@sha256:b099da393834ef708e29475e798c9e4e5b1bb4bd4bff5059ce84b9411d88ee95
+        name: my-nodejs
+        resources: {}
+status: {}
